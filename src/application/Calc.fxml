@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="339.0" prefWidth="371.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controlador">
+   <children>
+      <TextField fx:id="primernumero" layoutX="111.0" layoutY="68.0" />
+      <TextField fx:id="segundonumero" layoutX="111.0" layoutY="116.0" />
+      <TextField fx:id="tercernumero" disable="true" layoutX="111.0" layoutY="259.0" />
+      <Button fx:id="botonsumar" layoutX="59.0" layoutY="188.0" mnemonicParsing="false" onAction="#sumar" text="Sumar" />
+      <Button fx:id="restar" layoutX="160.0" layoutY="188.0" mnemonicParsing="false" onAction="#restar" text="Restar" />
+      <Button fx:id="dividir" layoutX="260.0" layoutY="188.0" mnemonicParsing="false" onAction="#dividir" text="Dividir" />
+   </children>
+</AnchorPane>
